@@ -9,7 +9,7 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Transaction_ID",
-            "oid": "341bff80-66e0-4633-9e8b-14f465276cd5",
+            "oid": "72d89993-413d-4f2f-aeb2-f5775c5e65f1",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -21,7 +21,7 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Customer_ID",
-            "oid": "00f91e08-5f28-4393-b718-7b00eeeb8cc4",
+            "oid": "586a90fe-a6dd-4054-8258-e4a4f3c165aa",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -33,7 +33,7 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Transaction_Date",
-            "oid": "bb42be90-34bd-4121-a4dd-e99f3f51f060",
+            "oid": "2487e8ef-0ba0-4da0-8b34-21f4e3f40101",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -45,7 +45,7 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Transaction_Status",
-            "oid": "0525e7ff-5498-4a51-9e39-8fa301504512",
+            "oid": "66953e10-31d8-4376-af47-6d4aa699d9c8",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -57,7 +57,7 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Quantity",
-            "oid": "d2f89be6-e14a-439a-80e5-50c52daf37bf",
+            "oid": "5db91f40-9db5-424e-98e7-bc19cb1cb785",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -69,7 +69,7 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Transaction_Amount",
-            "oid": "a314cae0-183b-47fa-8049-a82faf5aea46",
+            "oid": "99053cf4-7706-4d35-ba56-294a71d770e0",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -81,7 +81,7 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Product_ID",
-            "oid": "51109a8c-c5e9-4538-94c3-53176a26a15f",
+            "oid": "15a2dddb-2f57-48ee-814f-cd80ee0b644d",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -93,7 +93,7 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Category_ID",
-            "oid": "1b717925-bf4d-4f88-8048-5ef055d9ccb2",
+            "oid": "cad0c553-4418-4744-9d4a-e4e5426da033",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -105,7 +105,7 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Brand_ID",
-            "oid": "902fc012-6188-4faa-b48a-e89986e55d0d",
+            "oid": "0aa417d9-9ab7-45c0-bacb-ad6b75d362ce",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -117,7 +117,7 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Country",
-            "oid": "63da3daa-65e7-49f7-b483-177ac97a0021",
+            "oid": "fbb04beb-5e69-4264-92a0-b1646396dad2",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -129,7 +129,43 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Customer_Name",
-            "oid": "0a12d438-d028-44cf-9ad5-ff61f5c98beb",
+            "oid": "052ece11-c26b-452b-82b0-d3338b61bbbe",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "Birthdate",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Birthdate",
+            "oid": "b4e0db8b-c4d6-4427-a714-14503c7c94bc",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 4
+        },
+        {
+            "hidden": false,
+            "id": "Age",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Age",
+            "oid": "9c1225c6-a5c1-492a-8180-96bd645daf42",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Age_Range",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Age_Range",
+            "oid": "c687e469-74f2-4f58-8fe6-5dd9e5cddc10",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -141,7 +177,7 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Customer_Gender",
-            "oid": "1fc74425-81f3-4afe-af8e-29e62888f2c1",
+            "oid": "47dadfd0-8270-4183-95a2-c087b63f3acb",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -153,7 +189,7 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Cost",
-            "oid": "90630b6f-d998-4687-aa1d-138b81883ba2",
+            "oid": "a9f63dcb-5a36-4da7-b99d-d00532b0a17b",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -171,38 +207,45 @@
         "ignoreMissingColumns": false,
         "stringQuote": "\""
     },
-    "dataset": "52caa546-b2c7-4bf7-8dba-56987082cbb7",
+    "dataset": "69990864-78a5-4127-b893-151f3e52619c",
     "hidden": false,
-    "id": "0d319e6f-5317-4439-a8e2-a1e30ab37543.csv",
+    "id": "61322515-563e-4c2b-8ba2-6a41d331b80c.csv",
     "isMaterialized": false,
     "name": "Commerce",
-    "oid": "6f0ee77a-8561-4314-8ab3-d3640e969f3f",
-    "schemaName": "/opt/sisense/storage/datasets/storage/0d/0d319e6f-5317-4439-a8e2-a1e30ab37543.csv",
+    "oid": "fd278245-44ac-418c-95b1-48d481f2e2d3",
+    "schemaName": "/opt/sisense/storage/datasets/storage/61/61322515-563e-4c2b-8ba2-6a41d331b80c.csv",
     "tupleTransformations": [
         {
             "arguments": {
-                "column": "0525e7ff-5498-4a51-9e39-8fa301504512",
+                "column": "66953e10-31d8-4376-af47-6d4aa699d9c8",
                 "name": "Status"
             },
             "type": "rename-column"
         },
         {
             "arguments": {
-                "column": "a314cae0-183b-47fa-8049-a82faf5aea46",
+                "column": "99053cf4-7706-4d35-ba56-294a71d770e0",
                 "name": "Revenue"
             },
             "type": "rename-column"
         },
         {
             "arguments": {
-                "column": "0a12d438-d028-44cf-9ad5-ff61f5c98beb",
+                "column": "052ece11-c26b-452b-82b0-d3338b61bbbe",
                 "name": "Customer Name"
             },
             "type": "rename-column"
         },
         {
             "arguments": {
-                "column": "1fc74425-81f3-4afe-af8e-29e62888f2c1",
+                "column": "c687e469-74f2-4f58-8fe6-5dd9e5cddc10",
+                "name": "Age Range"
+            },
+            "type": "rename-column"
+        },
+        {
+            "arguments": {
+                "column": "47dadfd0-8270-4183-95a2-c087b63f3acb",
                 "name": "Gender"
             },
             "type": "rename-column"

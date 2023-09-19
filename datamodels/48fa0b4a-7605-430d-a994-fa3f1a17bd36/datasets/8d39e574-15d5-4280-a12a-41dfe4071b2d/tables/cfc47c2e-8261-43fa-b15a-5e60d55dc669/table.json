@@ -1,0 +1,45 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "dea61570-b7b8-4958-8dc3-35b41df1c7d8",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Product_ID",
+            "oid": "a2b7abe3-b832-4cc4-9513-50c9e6503f24",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "044cf073-8f39-4b58-8561-d9a624c730bc",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "potential_revenue",
+            "oid": "e0cb92a5-cc94-4857-9e44-771037a2c4cb",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 6
+        }
+    ],
+    "dataset": "8d39e574-15d5-4280-a12a-41dfe4071b2d",
+    "expression": {
+        "expression": "./table.sql",
+        "isDatabaseDialect": false,
+        "oid": "8fb75aaf-bd53-4fff-aa63-c8db8c56a146"
+    },
+    "hidden": false,
+    "id": "Potential Revenue",
+    "isMaterialized": null,
+    "name": "PotentialRevenue",
+    "oid": "cfc47c2e-8261-43fa-b15a-5e60d55dc669",
+    "tupleTransformations": [
+    ],
+    "type": "custom"
+}

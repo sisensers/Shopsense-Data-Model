@@ -1,0 +1,57 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "0581674c-a559-4a98-8ed9-a35c43bcbf04",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Product Name",
+            "oid": "5f1569b9-33db-4f30-87e3-185187181db1",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "a831e383-bf72-4685-8577-7e078911c1ba",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Actual_Revenue",
+            "oid": "1540f080-83a4-4224-93d2-54a4029a64ce",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 6
+        },
+        {
+            "hidden": false,
+            "id": "cc447420-7386-4114-94ac-5a52c8a9a3b4",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Potential_Revenue",
+            "oid": "77227807-0ee2-4172-b709-204d40c07ed2",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 6
+        }
+    ],
+    "dataset": "5bdbe741-37b7-4580-964c-b28b569a9585",
+    "expression": {
+        "expression": "./table.sql",
+        "isDatabaseDialect": false,
+        "oid": "a8c3d8ff-b140-4e09-a11c-82a1a803a161"
+    },
+    "hidden": false,
+    "id": "Actual V Potential",
+    "isMaterialized": null,
+    "name": "Actual V Potential",
+    "oid": "d22f2861-7661-4fa3-8e9c-612ba0921299",
+    "tupleTransformations": [
+    ],
+    "type": "custom"
+}

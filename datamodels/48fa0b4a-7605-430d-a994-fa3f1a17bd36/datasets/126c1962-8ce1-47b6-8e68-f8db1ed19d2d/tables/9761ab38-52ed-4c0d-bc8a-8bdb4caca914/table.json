@@ -1,0 +1,45 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "8fd29afd-44b2-492e-bb2e-b8bdfc6f6d9a",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Product_ID",
+            "oid": "e05fc141-b65b-4284-be20-dff71a89469f",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "879ba079-b79c-49d0-bd02-48477bcf279f",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "actual_revenue",
+            "oid": "a3804626-677c-4fe3-a559-ff17a962a4dc",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 6
+        }
+    ],
+    "dataset": "126c1962-8ce1-47b6-8e68-f8db1ed19d2d",
+    "expression": {
+        "expression": "./table.sql",
+        "isDatabaseDialect": false,
+        "oid": "4f347c64-b164-4269-b9b4-a2dae92c631c"
+    },
+    "hidden": false,
+    "id": "Actual Revenue",
+    "isMaterialized": null,
+    "name": "ActualRevenue",
+    "oid": "9761ab38-52ed-4c0d-bc8a-8bdb4caca914",
+    "tupleTransformations": [
+    ],
+    "type": "custom"
+}
