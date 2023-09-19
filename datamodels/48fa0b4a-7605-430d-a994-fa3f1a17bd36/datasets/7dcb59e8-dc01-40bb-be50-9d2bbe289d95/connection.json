@@ -1,0 +1,9 @@
+{
+    "createdByUser": true,
+    "fileName": "Category.csv",
+    "oid": "35d9b3eb-d776-4934-a65c-743722773d46",
+    "provider": "CSV",
+    "schema": "/opt/sisense/storage/datasets/storage/00/00a4bc00-4a6f-41f2-a999-7875ed291831.csv",
+    "uiParams": {
+    }
+}

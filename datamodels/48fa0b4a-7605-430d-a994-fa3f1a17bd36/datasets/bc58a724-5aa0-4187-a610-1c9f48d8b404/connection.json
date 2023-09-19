@@ -1,0 +1,9 @@
+{
+    "createdByUser": true,
+    "fileName": "Brand.csv",
+    "oid": "61f57482-c143-45b2-9482-7ce151bc2a05",
+    "provider": "CSV",
+    "schema": "/opt/sisense/storage/datasets/storage/78/78d4ea26-a881-471c-b976-0b5110f7f66b.csv",
+    "uiParams": {
+    }
+}

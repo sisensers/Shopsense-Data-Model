@@ -1,0 +1,29 @@
+{
+    "buildDestination": {
+        "destination": "elasticube"
+    },
+    "datasets": [
+        "./52caa546-b2c7-4bf7-8dba-56987082cbb7/dataset.json",
+        "./60984364-51e2-4fc9-8b59-7754e0f781d0/dataset.json",
+        "./7dcb59e8-dc01-40bb-be50-9d2bbe289d95/dataset.json",
+        "./bc58a724-5aa0-4187-a610-1c9f48d8b404/dataset.json",
+        "./fd219f45-87ef-45f5-b9d9-bf7e6bae1531/dataset.json"
+    ],
+    "experiments": {
+    },
+    "fiscal": "system",
+    "lastSuccessfulManualBuildStartTime": "2023-09-19T20:08:02.644Z",
+    "modelStatistics": {
+        "enableModelStatistics": false,
+        "maxTablesPerCollection": null,
+        "recollectStatsInterval": null
+    },
+    "oid": "48fa0b4a-7605-430d-a994-fa3f1a17bd36",
+    "relationType": "direct",
+    "relations": "./relations.json",
+    "relationsTables": [
+    ],
+    "schemaId": null,
+    "title": "Ecommerce Demo [MASTER]",
+    "type": "extract"
+}
