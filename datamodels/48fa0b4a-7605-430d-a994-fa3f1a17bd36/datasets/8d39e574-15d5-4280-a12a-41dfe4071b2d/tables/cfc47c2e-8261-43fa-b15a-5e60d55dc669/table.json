@@ -4,7 +4,7 @@
     },
     "columns": [
         {
-            "hidden": false,
+            "hidden": true,
             "id": "dea61570-b7b8-4958-8dc3-35b41df1c7d8",
             "indexed": true,
             "isUpsertBy": false,
@@ -16,7 +16,7 @@
             "type": 8
         },
         {
-            "hidden": false,
+            "hidden": true,
             "id": "044cf073-8f39-4b58-8561-d9a624c730bc",
             "indexed": true,
             "isUpsertBy": false,
@@ -34,7 +34,7 @@
         "isDatabaseDialect": false,
         "oid": "8fb75aaf-bd53-4fff-aa63-c8db8c56a146"
     },
-    "hidden": false,
+    "hidden": true,
     "id": "Potential Revenue",
     "isMaterialized": null,
     "name": "PotentialRevenue",

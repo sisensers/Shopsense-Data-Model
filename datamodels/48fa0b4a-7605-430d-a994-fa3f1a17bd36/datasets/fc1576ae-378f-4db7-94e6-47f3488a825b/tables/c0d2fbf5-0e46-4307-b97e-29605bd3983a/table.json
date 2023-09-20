@@ -9,7 +9,7 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Transaction_ID",
-            "oid": "72d89993-413d-4f2f-aeb2-f5775c5e65f1",
+            "oid": "3644275f-c8f7-48ee-ac3e-dc90a1e9a94d",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -21,7 +21,7 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Customer_ID",
-            "oid": "586a90fe-a6dd-4054-8258-e4a4f3c165aa",
+            "oid": "5664ea8e-0979-4f72-b3ab-fbe6279f3420",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -29,11 +29,23 @@
         },
         {
             "hidden": false,
+            "id": "Customer_Name",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Customer_Name",
+            "oid": "00fee804-d82d-4e9c-b07b-4e5256bdbf77",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
             "id": "Transaction_Date",
             "indexed": true,
             "isUpsertBy": false,
             "name": "Transaction_Date",
-            "oid": "2487e8ef-0ba0-4da0-8b34-21f4e3f40101",
+            "oid": "982fbd6e-a0fc-401d-909e-2114feb9b018",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -45,7 +57,7 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Transaction_Status",
-            "oid": "66953e10-31d8-4376-af47-6d4aa699d9c8",
+            "oid": "0d4da144-95d6-4548-999d-8dd81cc34a58",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -57,7 +69,7 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Quantity",
-            "oid": "5db91f40-9db5-424e-98e7-bc19cb1cb785",
+            "oid": "f775ce20-b554-4f6d-8197-37a88cba66bd",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -69,7 +81,7 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Transaction_Amount",
-            "oid": "99053cf4-7706-4d35-ba56-294a71d770e0",
+            "oid": "7d869b12-1f78-440f-9144-1ce5018ca4a8",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -81,7 +93,7 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Product_ID",
-            "oid": "15a2dddb-2f57-48ee-814f-cd80ee0b644d",
+            "oid": "f9b91fba-88c2-492f-9a5b-31460d18a85e",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -93,7 +105,7 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Category_ID",
-            "oid": "cad0c553-4418-4744-9d4a-e4e5426da033",
+            "oid": "979eded2-3f53-4ec3-b91e-522bfdd7c627",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -105,7 +117,7 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Brand_ID",
-            "oid": "0aa417d9-9ab7-45c0-bacb-ad6b75d362ce",
+            "oid": "283cf313-1661-4f83-bb50-e0e48112a4a0",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -117,35 +129,11 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Country",
-            "oid": "fbb04beb-5e69-4264-92a0-b1646396dad2",
+            "oid": "1c5d3d6a-7936-46d3-9fe5-61001401fdfc",
             "precision": 0,
             "scale": 0,
             "size": 0,
             "type": 18
-        },
-        {
-            "hidden": false,
-            "id": "Customer_Name",
-            "indexed": true,
-            "isUpsertBy": false,
-            "name": "Customer_Name",
-            "oid": "052ece11-c26b-452b-82b0-d3338b61bbbe",
-            "precision": 0,
-            "scale": 0,
-            "size": 0,
-            "type": 18
-        },
-        {
-            "hidden": false,
-            "id": "Birthdate",
-            "indexed": true,
-            "isUpsertBy": false,
-            "name": "Birthdate",
-            "oid": "b4e0db8b-c4d6-4427-a714-14503c7c94bc",
-            "precision": 0,
-            "scale": 0,
-            "size": 0,
-            "type": 4
         },
         {
             "hidden": false,
@@ -153,7 +141,7 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Age",
-            "oid": "9c1225c6-a5c1-492a-8180-96bd645daf42",
+            "oid": "5c7c843d-a5fa-4f56-8708-ba2c66853091",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -165,19 +153,7 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Age_Range",
-            "oid": "c687e469-74f2-4f58-8fe6-5dd9e5cddc10",
-            "precision": 0,
-            "scale": 0,
-            "size": 0,
-            "type": 18
-        },
-        {
-            "hidden": false,
-            "id": "Customer_Gender",
-            "indexed": true,
-            "isUpsertBy": false,
-            "name": "Customer_Gender",
-            "oid": "47dadfd0-8270-4183-95a2-c087b63f3acb",
+            "oid": "abd79d82-2853-4620-9d23-9b0e9fbceeff",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -189,7 +165,7 @@
             "indexed": true,
             "isUpsertBy": false,
             "name": "Cost",
-            "oid": "a9f63dcb-5a36-4da7-b99d-d00532b0a17b",
+            "oid": "44d7b0ba-e89f-4c9b-97da-fee1e38d5e94",
             "precision": 0,
             "scale": 0,
             "size": 0,
@@ -207,48 +183,62 @@
         "ignoreMissingColumns": false,
         "stringQuote": "\""
     },
-    "dataset": "69990864-78a5-4127-b893-151f3e52619c",
+    "dataset": "fc1576ae-378f-4db7-94e6-47f3488a825b",
     "hidden": false,
-    "id": "61322515-563e-4c2b-8ba2-6a41d331b80c.csv",
+    "id": "5098b085-e26f-4f0a-bb0b-f48a25593daa.csv",
     "isMaterialized": false,
     "name": "Commerce",
-    "oid": "fd278245-44ac-418c-95b1-48d481f2e2d3",
-    "schemaName": "/opt/sisense/storage/datasets/storage/61/61322515-563e-4c2b-8ba2-6a41d331b80c.csv",
+    "oid": "c0d2fbf5-0e46-4307-b97e-29605bd3983a",
+    "schemaName": "/opt/sisense/storage/datasets/storage/50/5098b085-e26f-4f0a-bb0b-f48a25593daa.csv",
     "tupleTransformations": [
         {
             "arguments": {
-                "column": "66953e10-31d8-4376-af47-6d4aa699d9c8",
-                "name": "Status"
-            },
-            "type": "rename-column"
-        },
-        {
-            "arguments": {
-                "column": "99053cf4-7706-4d35-ba56-294a71d770e0",
-                "name": "Revenue"
-            },
-            "type": "rename-column"
-        },
-        {
-            "arguments": {
-                "column": "052ece11-c26b-452b-82b0-d3338b61bbbe",
+                "column": "00fee804-d82d-4e9c-b07b-4e5256bdbf77",
                 "name": "Customer Name"
             },
             "type": "rename-column"
         },
         {
             "arguments": {
-                "column": "c687e469-74f2-4f58-8fe6-5dd9e5cddc10",
+                "column": "0d4da144-95d6-4548-999d-8dd81cc34a58",
+                "name": "Status"
+            },
+            "type": "rename-column"
+        },
+        {
+            "arguments": {
+                "column": "7d869b12-1f78-440f-9144-1ce5018ca4a8",
+                "name": "Revenue"
+            },
+            "type": "rename-column"
+        },
+        {
+            "arguments": {
+                "column": "abd79d82-2853-4620-9d23-9b0e9fbceeff",
                 "name": "Age Range"
             },
             "type": "rename-column"
         },
         {
             "arguments": {
-                "column": "47dadfd0-8270-4183-95a2-c087b63f3acb",
-                "name": "Gender"
+                "expression": {
+                    "expression": "DayName(DayOfWeek([Transaction_Date]))",
+                    "isDatabaseDialect": false,
+                    "oid": "b01cc46c-ee92-4fa9-aeb7-bbd4bf9224db"
+                },
+                "hidden": false,
+                "id": "DayOfWeek",
+                "indexed": true,
+                "isUpsertBy": false,
+                "lastUpdated": "2023-09-20T22:33:12.592Z",
+                "name": "DayOfWeek",
+                "oid": "10fcd58f-511b-42e3-9ade-221781a06b6e",
+                "precision": 0,
+                "scale": 0,
+                "size": 0,
+                "type": 18
             },
-            "type": "rename-column"
+            "type": "add-column"
         }
     ],
     "type": "base"

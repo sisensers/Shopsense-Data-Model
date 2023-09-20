@@ -1,0 +1,9 @@
+{
+    "createdByUser": true,
+    "fileName": "CommerceTableV18.csv",
+    "oid": "a9031895-6d89-445c-906e-8612d8756811",
+    "provider": "CSV",
+    "schema": "/opt/sisense/storage/datasets/storage/50/5098b085-e26f-4f0a-bb0b-f48a25593daa.csv",
+    "uiParams": {
+    }
+}

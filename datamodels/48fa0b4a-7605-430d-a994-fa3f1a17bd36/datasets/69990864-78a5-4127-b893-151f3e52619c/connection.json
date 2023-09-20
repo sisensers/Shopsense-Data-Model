@@ -1,9 +1,0 @@
-{
-    "createdByUser": true,
-    "fileName": "CommerceTableV7.csv",
-    "oid": "999173f8-c096-44a4-b5aa-4ddcb5ec4a5d",
-    "provider": "CSV",
-    "schema": "/opt/sisense/storage/datasets/storage/61/61322515-563e-4c2b-8ba2-6a41d331b80c.csv",
-    "uiParams": {
-    }
-}

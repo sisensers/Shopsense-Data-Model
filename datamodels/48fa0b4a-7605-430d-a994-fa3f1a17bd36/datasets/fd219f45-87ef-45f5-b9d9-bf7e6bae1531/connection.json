@@ -1,9 +1,0 @@
-{
-    "createdByUser": true,
-    "fileName": "CustomerReviewsv3.csv",
-    "oid": "738eeb93-e135-4c1c-b5b8-aa931b5745ef",
-    "provider": "CSV",
-    "schema": "/opt/sisense/storage/datasets/storage/2f/2f9b9fd9-92c2-4895-9f31-dd1e87c3f06a.csv",
-    "uiParams": {
-    }
-}
